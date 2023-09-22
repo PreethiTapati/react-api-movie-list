@@ -1,0 +1,15 @@
+@import url(''https://fonts.googleapis.com/css2?family=Mooli&display=swap'');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mooli', sans-serif;
+    /*background: url('./assets/images1.jpeg') center/cover no-repeat;*/
+   background-color: black;
+}

@@ -1,0 +1,25 @@
+
+.movie-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; /* Adjust the gap between items as needed */
+    padding: 20px;
+} 
+
+/* Style each individual movie item */
+.movie-item {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.movie-item img {
+    width: 30%;
+    height: 30%;
+}
+
+
